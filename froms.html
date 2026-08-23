@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/su.html" name="form1" method="get">
+        <label for="usname">username</label>
+        <input type="text" id="uname" name="uname"><br><br>
+
+        <label for="password">password</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="email">email</label>
+        <input type="email" name="email" id="email"><br><br>
+
+        <label for="phone">mobile number</label>
+        <input type="tel" name="phone" id="phone" maxlength="10"><br><br>
+
+        <label for="dob">date of birth</label>
+        <input type="date" name="dob" id="dob"><br><br>
+
+        <label for="qualification">qualification</label>
+        <select id="qulification">
+            <option value="BE">BE</option>
+            <option value="ME">ME</option>
+            <option value="MBA">MBA</option>
+            <option value="MA">MA</option>
+        </select><br><br>
+        <label>gender:</label><br>
+
+        <label for="gender">male</label>
+        <input type="radio" id="gender" name="gender" value="male"><br>
+        <label for="age">female</label>
+        <input type="radio" id="gender" name="gender" value="male"><br><br>
+
+        <label >skill;</label><br>
+
+        <label for="front">front end</label>
+        <input type="checkbox" name="front" id="front" value=""><br>
+        <label for="java">java</label>
+        <input type="checkbox" name="java" id="java" value=""><br>
+        <label for="python">css</label>
+        <input type="checkbox" name="python" id="python" value=""><br><br>
+
+        <label for="exp">Year of Experimce</label>
+        <input type="number" name="exp" id="exp" step="1" min="1"><br><br>
+        <label for="res">resume</label>
+        <input type="file" name="res" id="res" accept=".doc,.pdf"><br><br>
+        <label for="add">address</label>
+        <textarea name="add" id="add" autocorrect="on"></textarea><br><br>
+
+        <label for="peff">preffered location</label>
+
+        <select id="peff" multiple>
+            <option value="chennai">chennai</option>
+            <option value="mumbai">mumbai</option>
+            <option value="hyderabad">hyderbad</option>
+            <option value="delhi">delhi</option>
+        </select><br><br>
+
+        <Label for="agree">Agree terma and condition</Label>
+        <input type="checkbox" name="agree" id="agree"><br><br>
+
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        <input type="button" value="show" onclick="alert('welcome to the page')">
+</form><br><br>
+
+<form action="/froms.html" name="form2" method="get">
+
+    <label for="sname">Student Name</label>
+    <input type="text" name="sname" id="sname" required placeholder="student name"><br><br>
+
+    <label for="email">email</label>
+    <input type="email" name="email" id="email" required><br><br>
+
+    <label for="pass">password</label>
+    <input type="password" name="pass" id="pass" placeholder="password" required><br><br>
+    <label for="cpass">confirm Password</label>
+    <input type="password" name="pass" id="pass" placeholder="confirm password" required><br><br>
+
+    <label for="phone">Mobile number</label>
+    <input type="tel" name="phone" id="phone" max="10"><br><br>
+
+    <label>gender:</label>
+    <label for="gender">male</label>
+    <input type="radio" name="gender" id="gender">
+    <label for="gender">female</label>
+    <input type="radio" name="gender" id="gender"><br><br>
+
+    <label for="course">Select course</label>
+    <select name="course" id="course">
+        <option value="data">Data Science</option>
+        <option value="fs">Full stack</option>
+        <option value="dg">Digital Marketing</option>
+    </select><br><br>
+
+    <label for="">mode</label>
+    <label for="mode">Online</label>
+    <input type="radio" name="mode" id="mode">
+    <label for="mode">offline</label>
+    <input type="radio" name="mode" id="mode"><br><br>
+
+    <label for="doj">Date of joining</label>
+    <input type="date" name="doj" id="doj"><br><br>
+
+    <label for="con">contry</label>
+    <select name="con" id="con">
+        <option value="in">India</option>
+        <option value="us">Us</option>
+        <option value="turkey">Turkey</option>
+        <option value="chi">China</option>
+    </select><br><br>
+
+    <label for="add">address</label>
+    <textarea name="add" id="add">address</textarea><br><br>
+
+    
+
+    <label for="photo">upload Photo</label>
+    <input type="file" name="photo" id="photo" accept=".jpeg,.jpg"><br><br>
+
+    <label for="tec">Terms and Condition</label>
+    <input type="checkbox" name="tec" id="tec"><br><br>
+
+    <!-- <input type="submit" value="submit"><br> -->
+    <input type="reset" value="cancel">
+    <input type="button" value="register" onclick="alert('Registerted successfully')">
+   
+
+
+
+
+
+</form>
+
+
+</body>
+</html>
