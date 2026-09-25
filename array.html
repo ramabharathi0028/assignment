@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        console.log("....push.....");
+        let fruits=["apple","mango",10]
+        fruits.push(20);
+        console.log(fruits);
+
+        console.log("...pop....");
+        let a=[10,20,30,40]
+        a.pop();
+        console.log(a);
+
+        console.log("...shift...");
+        let city=["chennai","tenkasi","madurai"]
+        city.shift();
+        console.log(city);
+
+        console.log("....unshift....")
+        let b=["chennai","madurai","tenkasi"]
+        b.unshift("banglore");
+        console.log(b);
+
+        console.log("....loop...");
+        let n=[10,20,30,40]
+        for(i=0;i<n.length;i++){
+            console.log(n[i]);
+        }
+        console.log(n.length)
+
+        let num=[1,2,3,4,5]
+        let mul=num.map(function(num1){
+            return num1*2;
+        });
+        console.log(mul)
+
+        console.log("....filter...");
+
+        let number=[1,2,3,4,5,6]
+        let even=number.filter(function(num2){
+            return num2%2==0;
+        });
+        console.log(even);
+
+        console.log("...find...");
+
+        let d=[10,3,34,12,45,2,3]
+        let find=d.find(function(num3){
+            return num3>10;
+        });
+        console.log(find);
+
+        console.log("...reduce...")
+
+        let numbers=[10,20,30];
+       
+        let sum=number.reduce(function(total,num4){
+            return total+num4;
+            
+        },0);
+        console.log(sum)
+
+
+        let fruit= ["Apple", "Banana", "Mango", "Orange"];
+        console.log(fruit.includes("Mango"));
+
+
+    </script>
+</head>
+<body>
+    Welcome
+</body>
+</html>
